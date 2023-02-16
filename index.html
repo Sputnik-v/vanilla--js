@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head >
+    <meta charset="UTF-8" >
+    <title >Testing site project</title >
+    <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon" >
+    <link rel="stylesheet" href="src/style/sass/style.css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+</head >
+<body >
+<div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4 logo-text">Your test</span>
+        </a>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item" id="home"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item" id="tests"><a href="#" class="nav-link">Tests</a></li>
+            <li class="nav-item" id="about"><a href="#" class="nav-link">About</a></li>
+        </ul>
+    </header>
+    <form class="form">
+        <div class="mb-3">
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Your name</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+            <label for="exampleInputEmail1" class="form-label">Your email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">I'm ready!</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Start testing</button>
+    </form>
+    <footer class="fixed-bottom navbar-light">
+        <div class="text-center mt-5">
+            <div class="card-body">
+                <h5 class="card-title">Thanks for visiting</h5>
+                <p class="card-text">The site was compiled by Igor Tronin &#60;<a href="mailto:igortronin2705@gmail.com">igortronin2705@gmail.com</a>&#62;</p>
+            </div>
+        </div>
+    </footer>
+
+</div>
+<script src="src/js/pages/about.js" ></script >
+<script src="src/js/pages/tests.js" ></script >
+<script src="src/js/index.js"></script >
+</body >
+</html >
